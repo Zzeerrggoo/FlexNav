@@ -14,39 +14,46 @@ a{
 
 nav{
     min-width: 320px;
-    width: 100%;
 }
 
 ul.ulNav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     flex-wrap: wrap;
     padding: 2rem 1.5rem;
 
     background-color: #262626;
     font-family: 'Roboto', sans-serif;
+    color:white;
 }
 
 
 .label{
-    color:white;
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
-
 }
 
 .tabs{
     font-weight: 700;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .buttonLike{
     display: inline-block;
+
     font-size: 15px;
+
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 
+.buttonLike:hover{
+ background-color: #434242;
+}
 
 a + a{
     padding-left: 1.5vw;
