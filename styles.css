@@ -22,7 +22,7 @@ ul.ulNav{
     align-items: center;
 
     flex-wrap: wrap;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0;
 
     background-color: #262626;
     font-family: 'Roboto', sans-serif;
@@ -30,6 +30,9 @@ ul.ulNav{
     color:white;
 }
 
+ul>li{
+    margin: 0 calc(10px + 3vw);
+}
 
 .label{
     font-family: 'Patrick Hand', cursive;
@@ -38,6 +41,7 @@ ul.ulNav{
 }
 
 .tabs{
+    white-space: nowrap;
     font-weight: 700;
     font-size: 18px;
     line-height: 50px;
@@ -58,5 +62,5 @@ ul.ulNav{
 }
 
 a + a{
-    padding-left: 1.5vw;
+    margin-left: 1.5vw;
 }
