@@ -17,4 +17,37 @@ nav{
     width: 100%;
 }
 
+ul.ulNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 1.5rem;
 
+    background-color: #262626;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.label{
+    color:white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+
+}
+
+.tabs{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.buttonLike{
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+a + a{
+    padding-left: 1.5vw;
+}
