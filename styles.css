@@ -26,6 +26,7 @@ ul.ulNav{
 
     background-color: #262626;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     color:white;
 }
 
@@ -33,6 +34,7 @@ ul.ulNav{
 .label{
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
+    text-transform: initial;
 }
 
 .tabs{
